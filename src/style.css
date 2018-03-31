@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'SquareNormalCircle';
+    src: url('./SquareNormalCircle.woff2') format('woff2'),
+    url('./SquareNormalCircle.eot') format('eot'),
+    url('./SquareNormalCircle.ttf') format('ttf'),
+    url('./SquareNormalCircle.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+html, body {
+    font-family: 'SquareNormalCircle';
+}
+
+.hello {
+    color: yellow;
+    background: url('./my-image2.png');
+}
+
+i {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    color: red;
+}
